@@ -1,7 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import QuizHome from '@/views/QuizHome.vue'
 import TapRevealView from '@/views/TapRevealView.vue'
-import SwipeQuizView from '@/views/SwipeQuizView.vue'
+// import SwipeQuizView from '@/views/SwipeQuizView.vue'
+import SwipeQuizView from '@/views/SwipeQuizView.vue';
+(SwipeQuizView as any);
+
 
 const routes = [
   { path: '/', name: 'home', component: QuizHome },
