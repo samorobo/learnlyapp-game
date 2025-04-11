@@ -95,7 +95,7 @@
      
         <div class="w-full max-w-md">
           <button
-            @click="goToNextLesson"
+            @click="goToHomePage"
             class="w-full bg-blue-800 hover:bg-blue-900 text-white font-bold py-3 px-6 rounded-md"
           >
             Next →
@@ -178,7 +178,7 @@
   };
   
 
-  const goToNextLesson = () => {
+  const goToHomePage = () => {
     // Navigate back to home page
     router.push('/');
   };
